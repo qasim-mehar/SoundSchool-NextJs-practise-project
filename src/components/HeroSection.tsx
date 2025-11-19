@@ -1,10 +1,17 @@
 import React from "react";
 import Link from "next/link";
 
+import { Spotlight } from "./ui/Spotlight";
+import { Button } from "./ui/moving-border";
+
 export default function HeroSection() {
   return (
     <div className="h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative">
       <div className="p-4 relative z-10 w-full text-center">
+        <Spotlight
+          className="-top-40 left-0 md:-top-20 md:left-60"
+          fill="white"
+        />
         <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
           Mater the art of music
         </h1>
@@ -14,7 +21,12 @@ export default function HeroSection() {
           skills, join us to unlock your true potential
         </p>
         <div className="mt-4">
-          <Link href={"/courses"}>Explore all courses</Link>
+          <Button
+            borderRadius="1.75rem"
+            className="bg-white text-black dark:text-white  dark:bg-black border-neutral-200 dark-border-slate-800 "
+          >
+            <Link href={"/courses"}>Explore all courses</Link>
+          </Button>
         </div>
       </div>
     </div>
