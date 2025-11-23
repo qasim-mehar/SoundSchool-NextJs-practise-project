@@ -7,6 +7,7 @@ import FeaturedCourses from "@/app/components/FeaturedCourses";
 import { StickyScroll } from "./components/ui/sticky-scroll-reveal";
 import { WhyChooseUs } from "./components/WhyChooseUs";
 import { TestimonialCards } from "./components/TestimonialCards";
+import UpcomingWebinars from "./components/UpcomingWebinars";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <FeaturedCourses />
       <WhyChooseUs />
       <TestimonialCards />
+      <UpcomingWebinars />
     </main>
   );
 }
