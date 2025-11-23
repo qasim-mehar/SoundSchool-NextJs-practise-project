@@ -6,6 +6,7 @@ import HeroSection from "@/app/components/HeroSection";
 import FeaturedCourses from "@/app/components/FeaturedCourses";
 import { StickyScroll } from "./components/ui/sticky-scroll-reveal";
 import { WhyChooseUs } from "./components/WhyChooseUs";
+import { TestimonialCards } from "./components/TestimonialCards";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <HeroSection />
       <FeaturedCourses />
       <WhyChooseUs />
+      <TestimonialCards />
     </main>
   );
 }
