@@ -8,7 +8,7 @@
       "price": 49.99,
       "instructor": "David Henderson",
       "isFeatured": true,
-      "image": "https://example.com/images/courses/guitar-mastery.jpg"
+      "image": "https://images.unsplash.com/photo-1510915361408-d5a56d11963b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "price": 129.0,
       "instructor": "Sarah Driner",
       "isFeatured": false,
-      "image": "https://example.com/images/courses/music-production.jpg"
+      "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "price": 29.99,
       "instructor": "Robin Hall",
       "isFeatured": true,
-      "image": "https://example.com/images/courses/piano-course.jpg"
+      "image": "https://images.unsplash.com/photo-1552422535-c45813c61732?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "price": 19.99,
       "instructor": "Jason Allen",
       "isFeatured": false,
-      "image": "https://example.com/images/courses/music-theory.jpg"
+      "image": "https://images.unsplash.com/photo-1507838153414-b4b713384ebd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "price": 34.99,
       "instructor": "Elena Rigby",
       "isFeatured": true,
-      "image": "https://example.com/images/courses/vocal-training.jpg"
+      "image": "https://images.unsplash.com/photo-1516280440614-6697288d5d38?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "price": 39.99,
       "instructor": "Marcus Stone",
       "isFeatured": false,
-      "image": "https://example.com/images/courses/drumming-course.jpg"
+      "image": "https://images.unsplash.com/photo-1519892300165-cb5542fb4747?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     }
   ]
 }
